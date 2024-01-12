@@ -1,0 +1,19 @@
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+h3 {
+    margin-left: 3rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.testBtn {
+    padding: 3rem;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+
+}

@@ -1,0 +1,77 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+    height: 50rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(5rem);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+input {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+input:focus {
+    outline: none
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 50px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 5px;
+    width: 300px;
+}
+
+.Submit {
+    background-color: white;
+    border-radius: 5px;
+    padding: 7.5px;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 300px;
+    transition: all.3s;
+    margin-top: 20px;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.Submit:hover {
+    background-color: black;
+    color: white;
+}
+
+.ErrorMsg {
+    color: red;
+    font-size: 1.6rem;
+}
+
+.backbtn {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    width: 30%;
+}
